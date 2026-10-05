@@ -1,7 +1,8 @@
 {
-  "name": "roblox-joueurs",
+  "name": "roblox-player-tracker",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.19.2" }
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  }
 }
